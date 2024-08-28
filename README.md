@@ -1,8 +1,12 @@
-## Getting Started
+## Desafio POO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este foi um desafio de implementar um bootcamp com alunos, cursos e mentorias utilizando as collections do JAVA.
+
+This was a challenge about implement a bootcamp with studentes, courses and mentories using collections in JAVA.
 
 ## Folder Structure
+
+O projeto implementa informacoes sobre o usuario e grava os usuarios em uma variavel do tipo array
 
 The workspace contains two folders by default, where:
 
