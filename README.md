@@ -55,5 +55,7 @@ classDiagram
   Por fim temos dev que aqui representa o aluno/cliente e nele temos Set de conteúdos concluidos e inscritos, pois toda vez que um dev se cadastra em um bootcamp ele recebe uma lista de conteudos para finaliza-los até o prazo final e esses ao serem completados vao calculando um XP como forma de gameficação do negócio.
 
   en: The class bootcamp is the greater level of abstraction and in there are the informations of the "bussines". This form informations like name, description, initial and final date there is two SET's dev and contend. We used SET's because it's a way to garantee that only one register of dev and contend will exist on our bootcamp avoinding duplicates.
-  On the objetct contend we can see that it's abstract and a abstration of what the conted offered in our bootcamp. Their
+  On the objetct contend we can see that it's abstract and a abstration of what the conted offered in our bootcamp. It represents the courses and mentories that the dev will learn through the bootcamp.
+  Advancing we can see the curso(course) and mentoria(mentoring) the are diferent because course have an hourly load and the mentoring have a date. It happens because mentoring is a live with a specific subject and only happen one time during the bootcamp meanwhile the couse is the training for a skill.
+  Finaly we have dev that here represents the student or the costumer. Here we will have the SET for the contends he will attend, we use SET here because must not have contends in duplicity, in two separate variables enrolled and concluded it means that when the studant complete the contend he will get Xp computed to reach the bootcamps end.
 
